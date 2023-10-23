@@ -455,14 +455,14 @@
 
 
 <script>
-    function printDiv()
-    {
-        var printContent        = document.getElementById('print').innerHtml;
-        var originalContent     = document.body.innerHtml;
-        document.body.innerHtml = printContent;
-        window.print();
-        document.body.innerHtml = originalContent;
-        location.reload();
-    }
+    // function printDiv()
+    // {
+    //     var printContent        = document.getElementById('print').innerHtml;
+    //     var originalContent     = document.body.innerHtml;
+    //     document.body.innerHtml = printContent;
+    //     window.print();
+    //     document.body.innerHtml = originalContent;
+    //     // location.reload();
+    // }
 </script>
 @endsection
